@@ -1,0 +1,47 @@
+POST http://s55-pomdl01.synergy55.com:50000/RESTAdapter/inventoryaging/D41CLNT201
+Authorization: Basic UE9fU0VSVklDRV9VU0VSOnJ3cjcwOGt0azA=
+Content-Type: application/xml
+
+<?xml version="1.0" encoding="UTF-8"?>
+<InventoryAgingRequest>
+   <InventoryAging>
+      <asofdate>2019-05-30</asofdate>
+      <type>I</type>
+      <inentity>INV</inentity>
+      <itemno>0001</itemno>
+      <warehouse>WH</warehouse>
+      <period>05</period>
+      <year>2019</year>
+      <uom>LB</uom>
+      <cost>10</cost>
+      <qtyonhand>10</qtyonhand>
+      <qty0to31>31</qty0to31>
+      <qty31to60>60</qty31to60>
+      <qty61to90>90</qty61to90>
+      <qty91to120>120</qty91to120>
+      <qty121to150>151</qty121to150>
+      <qty151to180>181</qty151to180>
+      <qty181to270>271</qty181to270>
+      <qty271to360>361</qty271to360>
+      <qty361to450>451</qty361to450>
+      <qty451to540>541</qty451to540>
+      <qty541to720>721</qty541to720>
+      <qty721plus>720</qty721plus>
+      <maxdays>40</maxdays>
+      <amtonhand>10</amtonhand>
+      <amt0to30>30</amt0to30>
+      <amt31to60>60</amt31to60>
+      <amt61to90>91</amt61to90>
+      <amt91to120>121</amt91to120>
+      <amt121to150>151</amt121to150>
+      <amt151to180>181</amt151to180>
+      <amt181to270>271</amt181to270>
+      <amt271to360>361</amt271to360>
+      <amt361to450>451</amt361to450>
+      <amt451to540>541</amt451to540>
+      <amt541to630>631</amt541to630>
+      <amt631to720>721</amt631to720>
+      <amt721plus>720</amt721plus>
+      <lohu>10</lohu>
+   </InventoryAging>
+</InventoryAgingRequest>

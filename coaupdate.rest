@@ -1,0 +1,15 @@
+POST http://s55-pomdl01.synergy55.com:50000/RESTAdapter/coaupdate/D41CLNT201
+Authorization: Basic UE9fU0VSVklDRV9VU0VSOnJ3cjcwOGt0azA=
+Content-Type: application/xml; encoding=utf-8;
+
+this is a? asdfer a9? asdfadsf .a asdf a9! asdf asdf? Awasdf a! a.sdf. sfasdf .
+<?xml version="1.0"?>
+<n0:MXP_COARequest xmlns:n0="urn:synergy55.com:mxp:stp:coaupdate">
+    <n0:RecordSet>
+        <n0:MATNR>000000000000216896</n0:MATNR>
+        <n0:LIFNR>22323</n0:LIFNR>
+        <n0:WERKS/>
+        <n0:CHARG/>
+        <n0:URZTP>1</n0:URZTP>
+    </n0:RecordSet>
+</n0:MXP_COARequest>

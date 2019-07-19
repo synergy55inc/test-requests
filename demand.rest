@@ -1,0 +1,31 @@
+POST http://s55-pomdl01.synergy55.com:50000/RESTAdapter/demand
+Authorization: Basic UE9fU0VSVklDRV9VU0VSOnJ3cjcwOGt0azA=
+Content-Type: application/xml
+
+<?xml version="1.0"?>
+<MXP_DemandUpdate_Request xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<ns0:RecordSet xmlns:ns0="urn:synergy55.com:mxp:mm:demandupdate">
+		<ns0:SourceSys>MXP-US</ns0:SourceSys>
+		<ns0:Salesordernumber>6843568</ns0:Salesordernumber>
+		<ns0:Salesorderlineitem>1</ns0:Salesorderlineitem>
+		<ns0:Shiptoparty>Nautique Boat Company, Inc</ns0:Shiptoparty>
+		<ns0:Materialnumber>679758</ns0:Materialnumber>
+		<ns0:Plant>1230</ns0:Plant>
+		<ns0:Openorderquantity>1.0</ns0:Openorderquantity>
+		<ns0:Unitofmeasure>RO</ns0:Unitofmeasure>
+		<ns0:Requirementdate>2019-05-14</ns0:Requirementdate>
+		<ns0:Mxprecordstatus>open</ns0:Mxprecordstatus>
+	</ns0:RecordSet>
+	<ns0:RecordSet xmlns:ns0="urn:synergy55.com:mxp:mm:demandupdate">
+		<ns0:SourceSys>MXP-US</ns0:SourceSys>
+		<ns0:Salesordernumber>6843568</ns0:Salesordernumber>
+		<ns0:Salesorderlineitem>2</ns0:Salesorderlineitem>
+		<ns0:Shiptoparty>Nautique Boat Company, Inc</ns0:Shiptoparty>
+		<ns0:Materialnumber>676137</ns0:Materialnumber>
+		<ns0:Plant>1230</ns0:Plant>
+		<ns0:Openorderquantity>3.0</ns0:Openorderquantity>
+		<ns0:Unitofmeasure>RO</ns0:Unitofmeasure>
+		<ns0:Requirementdate>2019-05-14</ns0:Requirementdate>
+		<ns0:Mxprecordstatus>open</ns0:Mxprecordstatus>
+	</ns0:RecordSet>
+</MXP_DemandUpdate_Request>

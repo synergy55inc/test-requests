@@ -1,0 +1,36 @@
+POST http://s55-pomdl01.synergy55.com:50000/RESTAdapter/realtimegl/D41CLNT201
+Authorization: Basic UE9fU0VSVklDRV9VU0VSOnJ3cjcwOGt0azA=
+Content-Type: application/xml
+
+<?xml version="1.0"?>
+<MXP_RealtimeGL xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <RecordSet>
+    <DOC_TYPE>ZM</DOC_TYPE>
+    <COMP_CODE>1510</COMP_CODE>
+    <ACC_PRINCIPLE/>
+    <REF_DOC_NO>lauratst</REF_DOC_NO>
+    <DOC_DATE>2019-06-12</DOC_DATE>
+    <PSTNG_DATE>2019-06-13</PSTNG_DATE>
+    <HEADER_TXT>Laura Test GL Entry Push</HEADER_TXT>
+    <item>
+      <ITEMNO_ACC>0000000001</ITEMNO_ACC>
+      <GL_ACCOUNT>0000610000</GL_ACCOUNT>
+      <COMP_CODE>1510</COMP_CODE>
+      <ITEM_TEXT/>
+      <COSTCENTER/>
+      <PROFIT_CTR>PCNANA</PROFIT_CTR>
+      <AMOUNT>-777.77</AMOUNT>
+      <CURRENCY>USD</CURRENCY>
+    </item>
+    <item>
+      <ITEMNO_ACC>0000000002</ITEMNO_ACC>
+      <GL_ACCOUNT>0000899999</GL_ACCOUNT>
+      <COMP_CODE>1510</COMP_CODE>
+      <ITEM_TEXT/>
+      <COSTCENTER/>
+      <PROFIT_CTR>PCNANA</PROFIT_CTR>
+      <AMOUNT>777.77</AMOUNT>
+      <CURRENCY>USD</CURRENCY>
+    </item>
+  </RecordSet>
+</MXP_RealtimeGL>

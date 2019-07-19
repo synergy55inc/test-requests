@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<MATMAS06>
+    <IDOC BEGIN="1">
+        <EDI_DC40 SEGMENT="1">
+            <TABNAM>EDI_DC40</TABNAM>
+            <MANDT>201</MANDT>
+            <DOCNUM>0000000000014034</DOCNUM>
+            <DOCREL>753</DOCREL>
+            <STATUS>30</STATUS>
+            <DIRECT>1</DIRECT>
+            <OUTMOD>2</OUTMOD>
+            <IDOCTYP>MATMAS06</IDOCTYP>
+            <MESTYP>MATMAS</MESTYP>
+            <STDMES>MATMAS</STDMES>
+            <SNDPOR>SAPD41</SNDPOR>
+            <SNDPRT>LS</SNDPRT>
+            <SNDPRN>D41CLNT201</SNDPRN>
+            <RCVPOR>A000000003</RCVPOR>
+            <RCVPRT>LS</RCVPRT>
+            <RCVPRN>PIDEVCLNT</RCVPRN>
+            <CREDAT>20190424</CREDAT>
+            <CRETIM>150926</CRETIM>
+            <SERIAL>20190409144216</SERIAL>
+        </EDI_DC40>
+        <E1MARAM SEGMENT="1">
+            <MSGFN>018</MSGFN>
+            <MATNR>000000000000050159</MATNR>
+            <ERSDA>20190402</ERSDA>
+            <ERNAM>BOHNMAT</ERNAM>
+            <LAEDA>20190409</LAEDA>
+            <AENAM>BOHNMAT</AENAM>
+            <PSTAT>KEVDBG</PSTAT>
+            <MTART>ZERT</MTART>
+            <MBRSH>C</MBRSH>
+            <MATKL>ALALB</MATKL>
+            <MEINS>EA</MEINS>
+            <BLANZ>000</BLANZ>
+            <BRGEW>0.000</BRGEW>
+            <NTGEW>0.000</NTGEW>
+            <GEWEI>LBR</GEWEI>
+            <VOLUM>0.000</VOLUM>
+            <WESCH>0.000</WESCH>
+            <LAENG>0.000</LAENG>
+            <BREIT>0.000</BREIT>
+            <HOEHE>0.000</HOEHE>
+            <PRDHA>ALALB</PRDHA>
+            <ERGEW>0.000</ERGEW>
+            <ERVOL>0.000</ERVOL>
+            <GEWTO>0.0</GEWTO>
+            <VOLTO>0.0</VOLTO>
+            <FUELG>0</FUELG>
+            <STFAK>0</STFAK>
+            <MHDRZ>0</MHDRZ>
+            <MHDHB>0</MHDHB>
+            <MHDLP>0</MHDLP>
+            <VPSTA>KEVDBGX</VPSTA>
+            <MSTDE>00000000</MSTDE>
+            <MSTDV>00000000</MSTDV>
+            <COMPL>00</COMPL>
+            <MTPOS_MARA>NORM</MTPOS_MARA>
+            <GEWTO_NEW>0.0</GEWTO_NEW>
+            <VOLTO_NEW>0.0</VOLTO_NEW>
+            <ANP>000000000</ANP>
+            <MATNR_LONG>000000000000050159</MATNR_LONG>
+            <E1MARA1 SEGMENT="1">
+                <MATNR_EXTERNAL>50159</MATNR_EXTERNAL>
+                <MAXC>0.000</MAXC>
+                <MAXC_TOL>0.0</MAXC_TOL>
+                <MAXL>0.000</MAXL>
+                <MAXB>0.000</MAXB>
+                <MAXH>0.000</MAXH>
+                <QQTIME>0</QQTIME>
+                <MEDIUM>/</MEDIUM>
+                <COMMODITY>/</COMMODITY>
+                <SCM_MATURITY_DUR>          0</SCM_MATURITY_DUR>
+                <SCM_SHLF_LFE_REQ_MAX>          0</SCM_SHLF_LFE_REQ_MAX>
+            </E1MARA1>
+            <E1MAKTM SEGMENT="1">
+                <MSGFN>018</MSGFN>
+                <SPRAS>E</SPRAS>
+                <MAKTX>COR 10070-3 MONARCH BRUSHES</MAKTX>
+                <SPRAS_ISO>EN</SPRAS_ISO>
+            </E1MAKTM>
+            <E1MTXHM SEGMENT="1">
+                <MSGFN>003</MSGFN>
+                <TDOBJECT>MATERIAL</TDOBJECT>
+                <TDNAME>000000000000050159</TDNAME>
+                <TDID>BEST</TDID>
+                <TDSPRAS>E</TDSPRAS>
+                <TDTEXTTYPE>ASCII</TDTEXTTYPE>
+                <SPRAS_ISO>EN</SPRAS_ISO>
+            </E1MTXHM>
+        </E1MARAM>
+    </IDOC>
+</MATMAS06>

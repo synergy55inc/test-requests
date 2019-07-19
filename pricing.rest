@@ -1,0 +1,18 @@
+POST https://proxy.s4h.synergy55.com/sap/bw/ina/zzpricing?sap-client=201
+Authorization: Basic UzRDUEk6QWVuZHllYXIx
+Content-Type: application/json
+
+{
+    "CUSTOMER" : "0001001277",
+    "MATERIAL" : "000000000000001037",
+    "SALES_ORG": "2000",
+    "DIST_CHANNEL" : "10",
+    "DIVISION" : "10"
+}
+
+
+GET https://proxy.s4h.synergy55.com/sap/opu/odata/sap/ZLTC_B2B_C4_PURCHASE_SUMMARY_SRV/SelectOptSet?$expand=navSeltoSum&$filter=soldTo eq '99404021222' and fromYear eq '2019' and fromPeriod eq '06'&$format=json
+Authorization: Basic UzRDUEk6QWVuZHllYXIx
+
+GET https://proxy.s4h.synergy55.com/sap/opu/odata/sap/ZUTL_BOLCODE_MAINT_SRV/BOLCODESet?$filter=Zmfrgr eq '104'
+Authorization: Basic UzRDUEk6QWVuZHllYXIx

@@ -1,0 +1,77 @@
+POST http://s55-pomdl01.synergy55.com:50000/RESTAdapter/inventorymovement/Q41CLNT421
+Authorization: Basic UE9fU0VSVklDRV9VU0VSOnJ3cjcwOGt0azA=
+Content-Type: application/xml
+
+<?xml version="1.0" encoding="UTF-8"?>
+<InventoryMovementRequest xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <s0:InventoryMovement xmlns:s0="urn:synergy55.com:mxp:dts:inventory">
+        <s0:PSTNG_DATE>2019-03-12</s0:PSTNG_DATE>
+        <s0:REF_DOC_NO/>
+        <s0:GOODSMVT_CODE>03</s0:GOODSMVT_CODE>
+        <s0:MATERIAL>23172</s0:MATERIAL>
+        <s0:PLANT>1380</s0:PLANT>
+        <s0:STGE_LOC>E002</s0:STGE_LOC>
+        <s0:BATCH>INTERIM</s0:BATCH>
+        <s0:MOVE_TYPE>562</s0:MOVE_TYPE>
+        <s0:PO_NUMBER>0</s0:PO_NUMBER>
+        <s0:PO_ITEM>0</s0:PO_ITEM>
+        <s0:ENTRY_QNT>1536.0</s0:ENTRY_QNT>
+        <s0:ENTRY_UOM_ISO>LBR</s0:ENTRY_UOM_ISO>
+        <s0:MVT_IND/>
+        <s0:MOVE_MAT/>
+        <s0:MOVE_PLANT/>
+        <s0:MOVE_STLOC/>
+        <s0:EXPIRYDATE />
+        <s0:MOVE_REAS/>
+        <s0:SPEC_STOCK/>
+        <s0:VENDOR/>
+    </s0:InventoryMovement>
+</InventoryMovementRequest>
+
+<?xml version="1.0" encoding="UTF-8"?>
+<InventoryMovementRequest xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <n0:InventoryMovement xmlns:n0="urn:synergy55.com:mxp:dts:inventory">
+  <n0:PSTNG_DATE>1999-01-24</n0:PSTNG_DATE>
+  <n0:REF_DOC_NO>String 1</n0:REF_DOC_NO>
+  <n0:GOODSMVT_CODE>2</n0:GOODSMVT_CODE>
+  <n0:MATERIAL>3</n0:MATERIAL>
+  <n0:PLANT>4</n0:PLANT>
+  <n0:STGE_LOC>String 5</n0:STGE_LOC>
+  <n0:BATCH>String 6</n0:BATCH>
+  <n0:MOVE_TYPE>7</n0:MOVE_TYPE>
+  <n0:PO_NUMBER>8</n0:PO_NUMBER>
+  <n0:PO_ITEM>9</n0:PO_ITEM>
+  <n0:ENTRY_QNT>0.10E-13</n0:ENTRY_QNT>
+  <n0:ENTRY_UOM_ISO>String 12</n0:ENTRY_UOM_ISO>
+  <n0:MVT_IND>String 13</n0:MVT_IND>
+  <n0:MOVE_MAT>String 14</n0:MOVE_MAT>
+  <n0:MOVE_PLANT>String 15</n0:MOVE_PLANT>
+  <n0:MOVE_STLOC>String 16</n0:MOVE_STLOC>
+  <n0:EXPIRYDATE>String 17</n0:EXPIRYDATE>
+  <n0:MOVE_REAS>String 18</n0:MOVE_REAS>
+  <n0:SPEC_STOCK>String 19</n0:SPEC_STOCK>
+  <n0:VENDOR>String 20</n0:VENDOR>
+ </n0:InventoryMovement>
+ <n0:InventoryMovement xmlns:n0="urn:synergy55.com:mxp:dts:inventory">
+  <n0:PSTNG_DATE>1999-01-24</n0:PSTNG_DATE>
+  <n0:REF_DOC_NO>String 21</n0:REF_DOC_NO>
+  <n0:GOODSMVT_CODE>22</n0:GOODSMVT_CODE>
+  <n0:MATERIAL>23</n0:MATERIAL>
+  <n0:PLANT>24</n0:PLANT>
+  <n0:STGE_LOC>String 25</n0:STGE_LOC>
+  <n0:BATCH>String 26</n0:BATCH>
+  <n0:MOVE_TYPE>27</n0:MOVE_TYPE>
+  <n0:PO_NUMBER>28</n0:PO_NUMBER>
+  <n0:PO_ITEM>29</n0:PO_ITEM>
+  <n0:ENTRY_QNT>0.30E-13</n0:ENTRY_QNT>
+  <n0:ENTRY_UOM_ISO>String 32</n0:ENTRY_UOM_ISO>
+  <n0:MVT_IND>String 33</n0:MVT_IND>
+  <n0:MOVE_MAT>String 34</n0:MOVE_MAT>
+  <n0:MOVE_PLANT>String 35</n0:MOVE_PLANT>
+  <n0:MOVE_STLOC>String 36</n0:MOVE_STLOC>
+  <n0:EXPIRYDATE>String 37</n0:EXPIRYDATE>
+  <n0:MOVE_REAS>String 38</n0:MOVE_REAS>
+  <n0:SPEC_STOCK>String 39</n0:SPEC_STOCK>
+  <n0:VENDOR>String 40</n0:VENDOR>
+ </n0:InventoryMovement>
+</InventoryMovementRequest>

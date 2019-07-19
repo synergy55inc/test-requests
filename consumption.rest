@@ -1,0 +1,62 @@
+POST http://s55-pomdl01.synergy55.com:50000/RESTAdapter/api/consumption
+Authorization: Basic UE9fU0VSVklDRV9VU0VSOnJ3cjcwOGt0azA=
+Content-Type: application/xml
+
+<?xml version="1.0" encoding="UTF-8"?>
+<InvoiceLineRequest xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+   <s0:InvoiceLine xmlns:s0="urn:synergy55.com:mxp:btr:consumption">
+      <s0:source>ANAND</s0:source>
+      <s0:createdate>2019-03-22</s0:createdate>
+      <s0:document>6562792</s0:document>
+      <s0:linetype>LINE</s0:linetype>
+      <s0:docline>1</s0:docline>
+      <s0:ordersource>mxq</s0:ordersource>
+      <s0:dropship>false</s0:dropship>
+      <s0:DC>LD</s0:DC>
+      <s0:whs>LD</s0:whs>
+      <s0:salesarea>South Gulf Coast</s0:salesarea>
+      <s0:rep>0880</s0:rep>
+      <s0:repname>Tom Hanna</s0:repname>
+      <s0:cust>6013400</s0:cust>
+      <s0:custname>Nautique Boat Company, Inc</s0:custname>
+      <s0:assignstrata>10</s0:assignstrata>
+      <s0:calcstrata>10</s0:calcstrata>
+      <s0:shipvia>C-1</s0:shipvia>
+      <s0:shipcust>6013405</s0:shipcust>
+      <s0:shipname>Nautique Boat Company, Inc</s0:shipname>
+      <s0:shipaddress>Lamination 14700 Aerospace Parkway</s0:shipaddress>
+      <s0:shipcity>Orlando</s0:shipcity>
+      <s0:shipstate>FL</s0:shipstate>
+      <s0:shipzip>32832</s0:shipzip>
+      <s0:shipcountry>US</s0:shipcountry>
+      <s0:legacyitem>655191</s0:legacyitem>
+      <s0:itemdescription>GUM M100 12.7MM 1/2 VIC1+PH 44.5 X 44.5 24SH/CT 330SF/CT</s0:itemdescription>
+      <s0:vendor>Gurit U S A</s0:vendor>
+      <s0:productgroup>OFV</s0:productgroup>
+      <s0:prGroupSummary>Core</s0:prGroupSummary>
+      <s0:biztype>Core / Chemicals</s0:biztype>
+      <s0:shippedqty>990.0</s0:shippedqty>
+      <s0:UOM>SF</s0:UOM>
+      <s0:shippedweight>297.0</s0:shippedweight>
+      <s0:salesprice>3.98</s0:salesprice>
+      <s0:PriceSource>cf</s0:PriceSource>
+      <s0:freightadder>0.0</s0:freightadder>
+      <s0:materialcost>3.37992</s0:materialcost>
+      <s0:salesamt>3940.2</s0:salesamt>
+      <s0:taxamount>0.0</s0:taxamount>
+      <s0:addlcharge />
+      <s0:addlamount>0.0</s0:addlamount>
+      <s0:currency>USD</s0:currency>
+      <s0:conversionrate>1.0</s0:conversionrate>
+      <s0:creditreason />
+      <s0:market>Open Molding</s0:market>
+      <s0:segment>Marine</s0:segment>
+      <s0:shipdate>2019-03-22</s0:shipdate>
+      <s0:warehouseName>Lakeland</s0:warehouseName>
+      <s0:DCName>Lakeland</s0:DCName>
+      <s0:marginamt>594.08</s0:marginamt>
+      <s0:MATNR>655191</s0:MATNR>
+      <s0:MATKL>12312</s0:MATKL>
+      <s0:WERKS>12312</s0:WERKS>
+   </s0:InvoiceLine>
+</InvoiceLineRequest>

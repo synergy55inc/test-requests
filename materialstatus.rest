@@ -1,0 +1,49 @@
+POST http://s55-pomdl01.synergy55.com:50000/RESTAdapter/materialstatus/D41CLNT201
+Authorization: Basic UE9fU0VSVklDRV9VU0VSOnJ3cjcwOGt0azA=
+Content-Type: application/xml
+
+<?xml version="1.0"?>
+<MaterialStatusRequest xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <RecordSet>
+        <PLANT>1350</PLANT>
+        <MATERIAL>000000000000216896</MATERIAL>
+        <PUR_STATUS>20</PUR_STATUS>
+    </RecordSet>
+</MaterialStatusRequest>
+
+<?xml version="1.0" encoding="UTF-8"?>
+<MaterialStatusRequest>
+    <RecordSet>
+        <PLANT>1230</PLANT>
+        <PUR_STATUS></PUR_STATUS>
+        <MATERIAL>000000000000300831</MATERIAL>
+    </RecordSet>
+</MaterialStatusRequest>
+
+<?xml version="1.0" encoding="UTF-8"?>
+<MaterialStatusRequest>
+    <RecordSet>
+        <PLANT>1150</PLANT>
+        <PUR_STATUS>10</PUR_STATUS>
+        <MATERIAL>000000000000001024</MATERIAL>
+    </RecordSet>
+</MaterialStatusRequest>
+
+<?xml version="1.0" encoding="UTF-8"?>
+<ns0:MaterialStatusRequest xmlns:ns0="urn:synergy55.com:mxp:stp:materialstatus">
+   <ns0:RecordSet>
+      <ns0:PUR_STATUS>3234234234</ns0:PUR_STATUS>
+      <ns0:STORAGE_LOCATION></ns0:STORAGE_LOCATION>
+      <ns0:PLANT>10</ns0:PLANT>
+      <ns0:MATERIAL>000000000000300831</ns0:MATERIAL>
+   </ns0:RecordSet>
+</ns0:MaterialStatusRequest>
+
+<?xml version="1.0" encoding="UTF-8"?>
+<n0:MaterialStatusRequest xmlns:n0="urn:synergy55.com:mxp:stp:materialstatus">
+    <n0:RecordSet>
+        <n0:PLANT>3234234234</n0:PLANT>
+        <n0:PUR_STATUS>10</n0:PUR_STATUS>
+        <n0:MATERIAL>000000000000300831</n0:MATERIAL>
+    </n0:RecordSet>
+</n0:MaterialStatusRequest>

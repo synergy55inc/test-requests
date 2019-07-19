@@ -1,0 +1,63 @@
+POST http://s55-pomdl01.synergy55.com:50000/RESTAdapter/payable/D41CLNT201
+Authorization: Basic UE9fU0VSVklDRV9VU0VSOnJ3cjcwOGt0azA=
+Content-Type: application/xml
+
+<?xml version="1.0"?>
+<MXP_Payable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <RecordSet>
+    <DOC_TYPE>ZC</DOC_TYPE>
+    <COMP_CODE>1510</COMP_CODE>
+    <REF_DOC_NO>980057388</REF_DOC_NO>
+    <DOC_DATE>2019-05-15</DOC_DATE>
+    <PSTNG_DATE>2019-06-18</PSTNG_DATE>
+    <HEADER_TXT>1968011</HEADER_TXT>
+    <AccountGL>
+      <ITEMNO_ACC>0000000001</ITEMNO_ACC>
+      <GL_ACCOUNT>0000610000</GL_ACCOUNT>
+    </AccountGL>
+    <AccountPayable>
+      <ITEMNO_ACC>0000000002</ITEMNO_ACC>
+      <VENDOR_CODE>0000750000</VENDOR_CODE>
+    </AccountPayable>
+    <item>
+      <ITEMNO_ACC>0000000001</ITEMNO_ACC>
+      <AMOUNT>117.76</AMOUNT>
+      <CURRENCY>USD</CURRENCY>
+    </item>
+    <item>
+      <ITEMNO_ACC>0000000002</ITEMNO_ACC>
+      <AMOUNT>-117.76</AMOUNT>
+      <CURRENCY>USD</CURRENCY>
+    </item>
+  </RecordSet>
+</MXP_Payable>
+
+<?xml version="1.0"?>
+<MXP_Payable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <RecordSet>  
+    <DOC_TYPE>ZC</DOC_TYPE>    
+    <COMP_CODE>1510</COMP_CODE> 
+    <REF_DOC_NO>lauratst</REF_DOC_NO>   
+    <DOC_DATE>2019-06-12</DOC_DATE>   
+    <PSTNG_DATE>2019-06-13</PSTNG_DATE>    
+    <HEADER_TXT>Laura Test AP Push</HEADER_TXT> 
+    <AccountGL>
+      <ITEMNO_ACC>0000000001</ITEMNO_ACC>
+      <GL_ACCOUNT>0000610000</GL_ACCOUNT>
+    </AccountGL>
+    <AccountPayable>
+      <ITEMNO_ACC>0000000002</ITEMNO_ACC>
+      <VENDOR_CODE>750000</VENDOR_CODE>      
+    </AccountPayable>
+    <item>
+      <ITEMNO_ACC>0000000001</ITEMNO_ACC>
+      <AMOUNT>777.77</AMOUNT>
+      <CURRENCY>USD</CURRENCY>
+    </item>
+    <item>
+      <ITEMNO_ACC>0000000002</ITEMNO_ACC>
+      <AMOUNT>-777.77</AMOUNT>
+      <CURRENCY>USD</CURRENCY>
+    </item>
+  </RecordSet>
+</MXP_Payable>

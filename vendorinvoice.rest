@@ -1,0 +1,41 @@
+POST http://s55-pomdl01.synergy55.com:50000/RESTAdapter/OCVendorInvoice/D41CLNT201
+Authorization: Basic UE9fU0VSVklDRV9VU0VSOnJ3cjcwOGt0azA=
+Content-Type: application/xml
+
+<?xml version="1.0"?>
+<X12_4000_810 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <BIG BIG04="1361128-00" BIG03="2019-01-09" BIG02="906230213" BIG01="2019-02-26"/>
+  <N1Loop1>
+    <N1 N102="COMPOSITES ONE" N101="ST"/>
+    <N3 N301="4750 KISTER COURT"/>
+    <N4 N403="440043928" N402="OH" N401="ASHTABULA"/>
+  </N1Loop1>
+  <N1Loop1>
+    <N1 N102="Owens Corning Sales LLC" N101="RI"/>
+    <N3 N301="62375 Collections Center Drive"/>
+    <N4 N403="60693" N402="IL" N401="Chicago"/>
+  </N1Loop1>
+  <ITD ITD12="1% 15 Days, Net 30 Days" ITD08="398.20" ITD06="2019-03-28" ITD04="2019-03-13" ITD02="1" ITD01="01"/>
+  <DTM DTM02="2019-02-26" DTM01="011"/>
+  <IT1Loop1>
+    <IT1 IT109="00000000000020232" IT108="CB" IT107="00621714" IT106="VN" IT104="2.06" IT103="LB" IT102="12832.892" IT101="10">
+      <CTP CTP08="26435.76"/>
+      <PIDLoop1>
+        <PID_2 PID05="FM M8643 1.50 OZ 49.5" PID01="F"/>
+      </PIDLoop1>
+    </IT1>
+  </IT1Loop1>
+  <IT1Loop1>
+    <IT1 IT109="" IT108="" IT107="00391951" IT106="VN" IT104="2.06" IT103="LB" IT102="6496.914" IT101="20">
+      <CTP CTP08="13383.64"/>
+      <PIDLoop1>
+        <PID_2 PID05="FM M8643 1.50 OZ 49.5" PID01="F"/>
+      </PIDLoop1>
+    </IT1>
+  </IT1Loop1>
+  <TDS TDS04="398.20" TDS03="39421.20" TDS02="39819.40" TDS01="39819.40"/>
+  <SACLoop2>
+    <SAC_3 SAC15="Prepaid Freight" SAC12="ZZ" SAC05="439.95" SAC02="D240" SAC01="N"/>
+  </SACLoop2>
+  <CTT CTT01="2"/>
+</X12_4000_810>
