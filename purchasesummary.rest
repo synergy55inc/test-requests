@@ -1,0 +1,23 @@
+POST https://proxy.s4h.synergy55.com/dev/sap/bw/ina/zzpurch_summary?sap-client=201&RequestType=GET_SUMMARY
+Authorization: Basic UzRDUEk6QWVuZHllYXIx
+Content-Type: application/json
+ 
+{
+  "b2bUnitId": "1001277",
+  "location": "",
+  "FROMPERIOD": "1",
+  "ToPeriod": "7",
+  "FROMYEAR": "2018",
+  "TOYEAR": "2019",
+  "SORTBY": "quantity",
+  "ItemsDisplay": " ",
+  "WHITEMNO": " ",
+  "QTYIN": "BaseUOM"
+}
+
+POST https://proxy.s4h.synergy55.com/dev/sap/bw/ina/zzpurch_summary?sap-client=201&RequestType=GET_SHIPTO
+Authorization: Basic UzRDUEk6QWVuZHllYXIx
+Content-Type: application/json
+ 
+{ "b2bUnitId": "1001277" }
+

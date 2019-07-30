@@ -1,4 +1,4 @@
-POST https://proxy.s4h.synergy55.com/sap/bw/ina/zzpricing?sap-client=201
+POST https://proxy.s4h.synergy55.com/dev/sap/bw/ina/zzpricing?sap-client=201
 Authorization: Basic UzRDUEk6QWVuZHllYXIx
 Content-Type: application/json
 
@@ -11,7 +11,7 @@ Content-Type: application/json
 }
 
 
-GET https://proxy.s4h.synergy55.com/sap/opu/odata/sap/ZLTC_B2B_C4_PURCHASE_SUMMARY_SRV/SelectOptSet?$expand=navSeltoSum&$filter=soldTo eq '99404021222' and fromYear eq '2019' and fromPeriod eq '06'&$format=json
+GET https://proxy.s4h.synergy55.com/dev/sap/opu/odata/sap/ZLTC_B2B_C4_PURCHASE_SUMMARY_SRV/SelectOptSet?$expand=navSeltoSum&$filter=soldTo eq '99404021222' and fromYear eq '2019' and fromPeriod eq '06'&$format=json
 Authorization: Basic UzRDUEk6QWVuZHllYXIx
 
 GET https://proxy.s4h.synergy55.com/sap/opu/odata/sap/ZUTL_BOLCODE_MAINT_SRV/BOLCODESet?$filter=Zmfrgr eq '104'

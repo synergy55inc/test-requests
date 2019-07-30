@@ -1,4 +1,4 @@
-POST http://s55-pomdl01.synergy55.com:50000/RESTAdapter/materialstatus/D41CLNT201
+POST http://s55-pomdl01.synergy55.com:50000/RESTAdapter/materialstatus/Q41CLNT423
 Authorization: Basic UE9fU0VSVklDRV9VU0VSOnJ3cjcwOGt0azA=
 Content-Type: application/xml
 

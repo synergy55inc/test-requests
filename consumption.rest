@@ -1,62 +1,217 @@
-POST http://s55-pomdl01.synergy55.com:50000/RESTAdapter/api/consumption
-Authorization: Basic UE9fU0VSVklDRV9VU0VSOnJ3cjcwOGt0azA=
+POST http://s55-pomdl01.synergy55.com:50000/RESTAdapter/consumption/D41CLNT201
+Authorization: Basic 
 Content-Type: application/xml
 
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0"?>
 <InvoiceLineRequest xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-   <s0:InvoiceLine xmlns:s0="urn:synergy55.com:mxp:btr:consumption">
-      <s0:source>ANAND</s0:source>
-      <s0:createdate>2019-03-22</s0:createdate>
-      <s0:document>6562792</s0:document>
-      <s0:linetype>LINE</s0:linetype>
-      <s0:docline>1</s0:docline>
-      <s0:ordersource>mxq</s0:ordersource>
-      <s0:dropship>false</s0:dropship>
-      <s0:DC>LD</s0:DC>
-      <s0:whs>LD</s0:whs>
-      <s0:salesarea>South Gulf Coast</s0:salesarea>
-      <s0:rep>0880</s0:rep>
-      <s0:repname>Tom Hanna</s0:repname>
-      <s0:cust>6013400</s0:cust>
-      <s0:custname>Nautique Boat Company, Inc</s0:custname>
-      <s0:assignstrata>10</s0:assignstrata>
-      <s0:calcstrata>10</s0:calcstrata>
-      <s0:shipvia>C-1</s0:shipvia>
-      <s0:shipcust>6013405</s0:shipcust>
-      <s0:shipname>Nautique Boat Company, Inc</s0:shipname>
-      <s0:shipaddress>Lamination 14700 Aerospace Parkway</s0:shipaddress>
-      <s0:shipcity>Orlando</s0:shipcity>
-      <s0:shipstate>FL</s0:shipstate>
-      <s0:shipzip>32832</s0:shipzip>
-      <s0:shipcountry>US</s0:shipcountry>
-      <s0:legacyitem>655191</s0:legacyitem>
-      <s0:itemdescription>GUM M100 12.7MM 1/2 VIC1+PH 44.5 X 44.5 24SH/CT 330SF/CT</s0:itemdescription>
-      <s0:vendor>Gurit U S A</s0:vendor>
-      <s0:productgroup>OFV</s0:productgroup>
-      <s0:prGroupSummary>Core</s0:prGroupSummary>
-      <s0:biztype>Core / Chemicals</s0:biztype>
-      <s0:shippedqty>990.0</s0:shippedqty>
-      <s0:UOM>SF</s0:UOM>
-      <s0:shippedweight>297.0</s0:shippedweight>
-      <s0:salesprice>3.98</s0:salesprice>
-      <s0:PriceSource>cf</s0:PriceSource>
-      <s0:freightadder>0.0</s0:freightadder>
-      <s0:materialcost>3.37992</s0:materialcost>
-      <s0:salesamt>3940.2</s0:salesamt>
-      <s0:taxamount>0.0</s0:taxamount>
-      <s0:addlcharge />
-      <s0:addlamount>0.0</s0:addlamount>
-      <s0:currency>USD</s0:currency>
-      <s0:conversionrate>1.0</s0:conversionrate>
-      <s0:creditreason />
-      <s0:market>Open Molding</s0:market>
-      <s0:segment>Marine</s0:segment>
-      <s0:shipdate>2019-03-22</s0:shipdate>
-      <s0:warehouseName>Lakeland</s0:warehouseName>
-      <s0:DCName>Lakeland</s0:DCName>
-      <s0:marginamt>594.08</s0:marginamt>
-      <s0:MATNR>655191</s0:MATNR>
-      <s0:MATKL>12312</s0:MATKL>
-      <s0:WERKS>12312</s0:WERKS>
-   </s0:InvoiceLine>
+    <s0:InvoiceLine xmlns:s0="urn:synergy55.com:mxp:btr:consumption">
+        <s0:source>MXP-CA</s0:source>
+        <s0:document>244493</s0:document>
+        <s0:docline>1</s0:docline>
+        <s0:linetype>LINE</s0:linetype>
+        <s0:createdate>2019-01-17</s0:createdate>
+        <s0:ordersource>mxq</s0:ordersource>
+        <s0:dropship>false</s0:dropship>
+        <s0:DC>LY</s0:DC>
+        <s0:whs>LY</s0:whs>
+        <s0:salesarea>Northwest</s0:salesarea>
+        <s0:rep>1655</s0:rep>
+        <s0:repname>Bob Andrews</s0:repname>
+        <s0:cust>8117400</s0:cust>
+        <s0:custname>Coast Fiber-Tek Products Ltd</s0:custname>
+        <s0:assignstrata>20</s0:assignstrata>
+        <s0:calcstrata>20</s0:calcstrata>
+        <s0:shipvia>c-1</s0:shipvia>
+        <s0:shipcust>8117400</s0:shipcust>
+        <s0:shipname>Coast Fiber-Tek Products Ltd</s0:shipname>
+        <s0:shipaddress>1306 Boundary Road </s0:shipaddress>
+        <s0:shipcity>Burnaby</s0:shipcity>
+        <s0:shipstate>BC</s0:shipstate>
+        <s0:shipzip>V5K4T6</s0:shipzip>
+        <s0:shipcountry>CA</s0:shipcountry>
+        <s0:legacyitem>811995</s0:legacyitem>
+        <s0:itemdescription>ASH DX 411-350M MOMENTUM VE RESIN</s0:itemdescription>
+        <s0:vendor>Ashland LLC</s0:vendor>
+        <s0:productgroup>RV</s0:productgroup>
+        <s0:prGroupSummary>Resin</s0:prGroupSummary>
+        <s0:biztype>Resins</s0:biztype>
+        <s0:shippedqty>205.0</s0:shippedqty>
+        <s0:UOM>KG</s0:UOM>
+        <s0:shippedweight>219.35</s0:shippedweight>
+        <s0:salesprice>10.604</s0:salesprice>
+        <s0:PriceSource>cf</s0:PriceSource>
+        <s0:freightadder>0.0</s0:freightadder>
+        <s0:materialcost>7.8</s0:materialcost>
+        <s0:salesamt>2173.82</s0:salesamt>
+        <s0:taxamount>108.69</s0:taxamount>
+        <s0:addlcharge/>
+        <s0:addlamount>0.0</s0:addlamount>
+        <s0:currency>CAD</s0:currency>
+        <s0:conversionrate>0.7633588</s0:conversionrate>
+        <s0:creditreason/>
+        <s0:market>Miscellaneous</s0:market>
+        <s0:segment>Misc/Job Shop</s0:segment>
+        <s0:shipdate>2019-01-17</s0:shipdate>
+        <s0:warehouseName>Langley</s0:warehouseName>
+        <s0:DCName>Langley</s0:DCName>
+        <s0:marginamt>574.82</s0:marginamt>
+        <s0:MATNR>502795</s0:MATNR>
+        <s0:MATKL>RERVE</s0:MATKL>
+        <s0:WERKS>2020</s0:WERKS>
+        <s0:KURNR>1009946</s0:KURNR>
+        <s0:shipkunnr>1009946</s0:shipkunnr>
+        <s0:purchregion>West d</s0:purchregion>
+        <s0:Orderno>440387</s0:Orderno>
+        <s0:orderitem>0004</s0:orderitem>
+        <s0:artermcode>D201</s0:artermcode>
+        <s0:process>MC</s0:process>
+        <s0:endusemarket>MC</s0:endusemarket>
+        <s0:purchasegrp>114</s0:purchasegrp>
+        <s0:custitemno/>
+        <s0:lastOrderUom>DR</s0:lastOrderUom>
+        <s0:orderquantity>1.0</s0:orderquantity>
+        <s0:ttInvLineBatch>
+            <s0:source>MXP-CA</s0:source>
+            <s0:document>244493</s0:document>
+            <s0:docline>1</s0:docline>
+            <s0:batchID>0002329529</s0:batchID>
+            <s0:batchUOM>KG</s0:batchUOM>
+            <s0:batchQuantity>205.0</s0:batchQuantity>
+            <s0:batchCoaUrl>https://b2bcomposites.com/webfiles/c1/217300/0002329529.crt.pdf</s0:batchCoaUrl>
+        </s0:ttInvLineBatch>
+    </s0:InvoiceLine>
+    <s0:InvoiceLine xmlns:s0="urn:synergy55.com:mxp:btr:consumption">
+        <s0:source>MXP-CA</s0:source>
+        <s0:document>244493</s0:document>
+        <s0:docline>2</s0:docline>
+        <s0:linetype>LINE</s0:linetype>
+        <s0:createdate>2019-01-17</s0:createdate>
+        <s0:ordersource>mxq</s0:ordersource>
+        <s0:dropship>false</s0:dropship>
+        <s0:DC>LY</s0:DC>
+        <s0:whs>LY</s0:whs>
+        <s0:salesarea>Northwest</s0:salesarea>
+        <s0:rep>1655</s0:rep>
+        <s0:repname>Bob Andrews</s0:repname>
+        <s0:cust>8117400</s0:cust>
+        <s0:custname>Coast Fiber-Tek Products Ltd</s0:custname>
+        <s0:assignstrata>20</s0:assignstrata>
+        <s0:calcstrata>20</s0:calcstrata>
+        <s0:shipvia>c-1</s0:shipvia>
+        <s0:shipcust>8117400</s0:shipcust>
+        <s0:shipname>Coast Fiber-Tek Products Ltd</s0:shipname>
+        <s0:shipaddress>1306 Boundary Road </s0:shipaddress>
+        <s0:shipcity>Burnaby</s0:shipcity>
+        <s0:shipstate>BC</s0:shipstate>
+        <s0:shipzip>V5K4T6</s0:shipzip>
+        <s0:shipcountry>CA</s0:shipcountry>
+        <s0:legacyitem>820010</s0:legacyitem>
+        <s0:itemdescription>CLM MICRONA 10 CALCIUM CARBONATE 40BG/PALLET 1134KGS</s0:itemdescription>
+        <s0:vendor>Columbia River Carbonates</s0:vendor>
+        <s0:productgroup>LC</s0:productgroup>
+        <s0:prGroupSummary>Fillers</s0:prGroupSummary>
+        <s0:biztype>Core / Chemicals</s0:biztype>
+        <s0:shippedqty>207.0</s0:shippedqty>
+        <s0:UOM>KG</s0:UOM>
+        <s0:shippedweight>209.07</s0:shippedweight>
+        <s0:salesprice>0.369</s0:salesprice>
+        <s0:PriceSource>cf</s0:PriceSource>
+        <s0:freightadder>0.07</s0:freightadder>
+        <s0:materialcost>0.25609</s0:materialcost>
+        <s0:salesamt>76.38</s0:salesamt>
+        <s0:taxamount>3.82</s0:taxamount>
+        <s0:addlcharge/>
+        <s0:addlamount>0.0</s0:addlamount>
+        <s0:currency>CAD</s0:currency>
+        <s0:conversionrate>0.7633588</s0:conversionrate>
+        <s0:creditreason/>
+        <s0:market>Miscellaneous</s0:market>
+        <s0:segment>Misc/Job Shop</s0:segment>
+        <s0:shipdate>2019-01-17</s0:shipdate>
+        <s0:warehouseName>Langley</s0:warehouseName>
+        <s0:DCName>Langley</s0:DCName>
+        <s0:marginamt>23.37</s0:marginamt>
+        <s0:MATNR>820010</s0:MATNR>
+        <s0:MATKL>LFLCC</s0:MATKL>
+        <s0:WERKS>2020</s0:WERKS>
+        <s0:KURNR>1009946</s0:KURNR>
+        <s0:shipkunnr>1009946</s0:shipkunnr>
+        <s0:purchregion>West d</s0:purchregion>
+        <s0:Orderno>440387</s0:Orderno>
+        <s0:orderitem>0003</s0:orderitem>
+        <s0:artermcode>D201</s0:artermcode>
+        <s0:process>MC</s0:process>
+        <s0:endusemarket>MC</s0:endusemarket>
+        <s0:purchasegrp>212</s0:purchasegrp>
+        <s0:custitemno/>
+        <s0:lastOrderUom>KG</s0:lastOrderUom>
+        <s0:orderquantity>207.0</s0:orderquantity>
+    </s0:InvoiceLine>
+    <s0:InvoiceLine xmlns:s0="urn:synergy55.com:mxp:btr:consumption">
+        <s0:source>MXP-CA</s0:source>
+        <s0:document>244493</s0:document>
+        <s0:docline>3</s0:docline>
+        <s0:linetype>LINE</s0:linetype>
+        <s0:createdate>2019-01-17</s0:createdate>
+        <s0:ordersource>mxq</s0:ordersource>
+        <s0:dropship>false</s0:dropship>
+        <s0:DC>LY</s0:DC>
+        <s0:whs>LY</s0:whs>
+        <s0:salesarea>Northwest</s0:salesarea>
+        <s0:rep>1655</s0:rep>
+        <s0:repname>Bob Andrews</s0:repname>
+        <s0:cust>8117400</s0:cust>
+        <s0:custname>Coast Fiber-Tek Products Ltd</s0:custname>
+        <s0:assignstrata>20</s0:assignstrata>
+        <s0:calcstrata>20</s0:calcstrata>
+        <s0:shipvia>c-1</s0:shipvia>
+        <s0:shipcust>8117400</s0:shipcust>
+        <s0:shipname>Coast Fiber-Tek Products Ltd</s0:shipname>
+        <s0:shipaddress>1306 Boundary Road </s0:shipaddress>
+        <s0:shipcity>Burnaby</s0:shipcity>
+        <s0:shipstate>BC</s0:shipstate>
+        <s0:shipzip>V5K4T6</s0:shipzip>
+        <s0:shipcountry>CA</s0:shipcountry>
+        <s0:legacyitem>817820</s0:legacyitem>
+        <s0:itemdescription>IMA BG 3HX CALCIUM CARBONATE </s0:itemdescription>
+        <s0:vendor>Imasco Minerals Inc</s0:vendor>
+        <s0:productgroup>LCC</s0:productgroup>
+        <s0:prGroupSummary>Fillers</s0:prGroupSummary>
+        <s0:biztype>Core / Chemicals</s0:biztype>
+        <s0:shippedqty>23.0</s0:shippedqty>
+        <s0:UOM>KG</s0:UOM>
+        <s0:shippedweight>25.3</s0:shippedweight>
+        <s0:salesprice>0.369</s0:salesprice>
+        <s0:PriceSource>cf</s0:PriceSource>
+        <s0:freightadder>0.0</s0:freightadder>
+        <s0:materialcost>0.17696</s0:materialcost>
+        <s0:salesamt>8.49</s0:salesamt>
+        <s0:taxamount>0.42</s0:taxamount>
+        <s0:addlcharge/>
+        <s0:addlamount>0.0</s0:addlamount>
+        <s0:currency>CAD</s0:currency>
+        <s0:conversionrate>0.7633588</s0:conversionrate>
+        <s0:creditreason/>
+        <s0:market>Miscellaneous</s0:market>
+        <s0:segment>Misc/Job Shop</s0:segment>
+        <s0:shipdate>2019-01-17</s0:shipdate>
+        <s0:warehouseName>Langley</s0:warehouseName>
+        <s0:DCName>Langley</s0:DCName>
+        <s0:marginamt>4.42</s0:marginamt>
+        <s0:MATNR>ERROR:MXP-CA:itemno:817820:matno missing.</s0:MATNR>
+        <s0:MATKL>ERROR</s0:MATKL>
+        <s0:WERKS>2020</s0:WERKS>
+        <s0:KURNR>1009946</s0:KURNR>
+        <s0:shipkunnr>1009946</s0:shipkunnr>
+        <s0:purchregion>West d</s0:purchregion>
+        <s0:Orderno>440387</s0:Orderno>
+        <s0:orderitem>0002</s0:orderitem>
+        <s0:artermcode>D201</s0:artermcode>
+        <s0:process>MC</s0:process>
+        <s0:endusemarket>MC</s0:endusemarket>
+        <s0:purchasegrp>411</s0:purchasegrp>
+        <s0:custitemno/>
+        <s0:lastOrderUom>KG</s0:lastOrderUom>
+        <s0:orderquantity>23.0</s0:orderquantity>
+    </s0:InvoiceLine>
 </InvoiceLineRequest>
