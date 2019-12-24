@@ -1,0 +1,7 @@
+POST https://proxy.s4h.synergy55.com/qa/sap/bw/ina/zzpurch_summary?sap-client=424&RequestType=GET_SUMMARY
+Authorization: Basic YXJhdmluYTp3aW5kb3czMg==
+Content-Type: application/json
+@get_summary_request.json
+
+GET https://proxy.s4h.synergy55.com/prod/sap/bw/ina/ZZOPENTEXT/COA/218100_203206_0001204421?sap-client=100&sap-language=EN
+Authorization: Basic QjJCUzQ6UGNvbm5lY3Qy

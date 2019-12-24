@@ -1,5 +1,3 @@
-POST https://sgiws.com/api/ws/rating/ti/irlrating.cfc
+POST https://staging.sgiws.com/api/ws/rating/ti/irlrating.cfc
 
 <requests username="irlRatingCmp" password="@43frTl!" id="composite" token="30f0f813-f427-4f0c-b093-6f7eebbbc742"><request service="IRLRating"><dsInput xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><RateReq><BOLNo>1379843</BOLNo><UserID>XXXXX</UserID><Pswd>XXXXX</Pswd><Mode>ALL</Mode><ServiceLevel>Standard</ServiceLevel><ShipDate>07-18-2019</ShipDate><Direction>I</Direction><FuelSurcharge/><ResponseType>ALL</ResponseType><PalletCount>1</PalletCount><WeightClasses><WeightClass><Weight>1719</Weight><Class>70</Class></WeightClass></WeightClasses><Accessorials></Accessorials><Events><Event><Sequence>1</Sequence><EventType>Pickup</EventType><LocationCode/><City>Columbia</City><State>SC</State><Zip>29201</Zip><Country>US</Country></Event><Event><Sequence>2</Sequence><EventType>Drop</EventType><LocationCode/><City>Katy</City><State>TX</State><Zip>77494</Zip><Country>US</Country></Event></Events></RateReq></dsInput></request></requests>
-
-

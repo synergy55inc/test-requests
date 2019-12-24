@@ -1,0 +1,8 @@
+POST http://proxy.s4h.synergy55.com/dev/sap/bw/ina/zzpurch_summary?sap-client=201&RequestType=GET_CUSTOMER
+Authorization: Basic UzRDUEk6QWVuZHllYXIx
+Content-Type: application/json
+ 
+{ "account": "1001277" }
+
+0002000615
+2000615

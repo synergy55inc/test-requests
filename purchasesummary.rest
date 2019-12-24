@@ -1,5 +1,5 @@
-POST https://proxy.s4h.synergy55.com/dev/sap/bw/ina/zzpurch_summary?sap-client=201&RequestType=GET_SUMMARY
-Authorization: Basic UzRDUEk6QWVuZHllYXIx
+POST https://proxy.s4h.synergy55.com/qa/sap/bw/ina/zzpurch_summary?sap-client=424&RequestType=GET_SUMMARY
+Authorization: Basic YXJhdmluYTp3aW5kb3czMg==
 Content-Type: application/json
  
 {
@@ -15,9 +15,24 @@ Content-Type: application/json
   "QTYIN": "BaseUOM"
 }
 
-POST https://proxy.s4h.synergy55.com/dev/sap/bw/ina/zzpurch_summary?sap-client=201&RequestType=GET_SHIPTO
+GET https://proxy.s4h.synergy55.com/dev/sap/bw/ina/ZZPURCH_SUMMARY?RequestType=GET_SUMM_CSV&RequestDetails=ewogICJiMmJVbml0SWQiOiAiMTAwMTI3NyIsCiAgImxvY2F0aW9uIjogIiIsCiAgIkZST01QRVJJT0QiOiAiMSIsCiAgIlRvUGVyaW9kIjogIjciLAogICJGUk9NWUVBUiI6ICIyMDE4IiwKICAiVE9ZRUFSIjogIjIwMTkiLAogICJTT1JUQlkiOiAicXVhbnRpdHkiLAogICJJdGVtc0Rpc3BsYXkiOiAiICIsCiAgIldISVRFTU5PIjogIiAiLAogICJRVFlJTiI6ICJCYXNlVU9NIgp9&SAP-CLIENT=201
+Authorization: Basic UzRDUEk6QWVuZHllYXIx
+
+POST https://proxy.s4h.synergy55.com/qa/sap/bw/ina/zzpurch_summary?sap-client=201&RequestType=GET_SHIPTO
 Authorization: Basic UzRDUEk6QWVuZHllYXIx
 Content-Type: application/json
  
 { "b2bUnitId": "1001277" }
+
+
+POST https://proxy.s4h.synergy55.com/dev/sap/bw/ina/zzpurch_summary?sap-client=201&RequestType=GET_ITEMINFO
+Authorization: Basic UzRDUEk6QWVuZHllYXIx
+Content-Type: application/json
+ 
+{ "c1itemnumber": "1037" }
+
+
+https://dev.s4h.synergy55.com:44302/sap/bc/ui5_ui5/sap/ZPURCH_SUMMARY/index.html#/itemsummary/1001277
+
+https://qa.s4h.synergy55.com:44302/sap/bc/ui5_ui5/sap/ZPURCH_SUMMARY/index.html#/itemsummary/1001277
 
